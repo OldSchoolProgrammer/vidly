@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+<div class='container'>
+    {% block body_block %}
+    <h1> Welcome to our online movies application!</h1>
+    <h2>Please follow this link to get in our application...</h2>
+    <a href="{% url 'movies:index' %}">Vidly Application</a>
+    {% endblock body_block %}
+</div>
